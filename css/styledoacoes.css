@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 40px;
+}
+table {
+    border-collapse: collapse; /* Une as bordas das células da tabela */
+    width: 80%; /* Define a largura da tabela */
+}
+
+table, th, td {
+    border: 1px solid black; /* Adiciona borda preta a todas as células da tabela */
+}
+
+th, td {
+    padding: 8px; /* Adiciona espaço interno nas células */
+    text-align: left; /* Alinha o texto à esquerda nas células */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Adiciona uma cor de fundo alternada nas linhas pares */
+}

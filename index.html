@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MozDoa</title>
+</head>
+<body>
+    <div class="imagem">
+        <img src="css/imagens/5411457.jpg" alt="">
+    </div>
+    <div class="formulario">
+        <div class="titulo">
+            <h1>MozDoa</h1>
+        </div>
+        <div class="inputs">
+            <div class="input-box">
+                <label for="nome">Nome de Usuario</label>
+                <input id="nome" type="text" placeholder="Insira o nome de usuario">
+            </div>
+            <div class="input-box">
+                <label for="password">Palavra Passe</label>
+                <input id="password" type="password" placeholder="Insira a sua palavra passe">
+            </div>
+        </div>
+        <button onclick="validarFormulario()">ENTRAR</button>
+    </div>
+    <script>
+        const nomes=["admin","agnerio","akil","marilena","shanaya"];
+        const passwords=["1234","1111","2222","3333","4444"]
+
+        function validarFormulario() {
+            var nomeUsuario = document.getElementById("nome").value;
+            var senha = document.getElementById("password").value;
+
+            if (nomeUsuario === "" || senha === "") {
+                alert("Por favor, preencha ambos os campos de nome de usuário e senha.");
+            } else {
+                for(var i=0;i<nomes.length;i++) {
+                    if(nomes[i]==nomeUsuario && passwords[i]==senha) {
+                        window.location.href = "menu.html";
+                    } 
+                }
+                if(i==nomes.length) {
+                    alert("Nome do usuario ou senha errados");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

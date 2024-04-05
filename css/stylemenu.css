@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    background-color:#385A64;
+    /*background-color: #85807f;*/
+    margin: 20px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.doutor{
+    background-image: url(imagens/Doctors-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.orgao{
+    background-image: url(imagens/Cardiologist-amico.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.organização{
+    background-image: url(imagens/Company-amico.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atendimento{
+    background-image: url(imagens/At\ the\ office-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paciente{
+    background-image: url(imagens/Hospital\ wheelchair-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.transplante{
+    background-image: url(imagens/Lungs-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.doador{
+    background-image: url(imagens/Blood\ donation-rafiki.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.doacoes{
+    background-image: url(imagens/Blood\ donation-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.retangulo{
+    width: 80%;
+    background-color:white;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

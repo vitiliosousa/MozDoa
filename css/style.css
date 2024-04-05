@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+}
+body{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    margin-right: 80px;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.titulo{
+    color: #385A64;
+}
+
+.input-box{
+    margin: 10px;
+}
+.input-box input{
+    width: 100%;
+    border: 0.1px solid #0000001c;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+    box-shadow: 1px 1px 6px #0000001c;
+    box-sizing: border-box;
+}
+.input-box input:hover{
+    background-color: #0000001c;
+}
+.input-box label{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+button{
+    margin:25px 0px;
+    margin-bottom:5px;
+    width: 42%;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color:#FF735C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.titulo{
+    margin: 20px;
+}
+.imagem{
+    width: 50%;
+}
+.imagem img{
+    width: 80%;
+    margin-left: 100px;
+}

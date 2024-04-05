@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    font-size: 1.3rem;
+    width: 300px;
+    height: 500px;
+    background-color:#385A64;
+    /*background-color: #85807f;*/
+    margin: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.retangulo{
+    width: 80%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.adicionardoutor{
+    background-image: url(imagens/Online\ Doctor-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.removerdoutor{
+    background-image: url(imagens/Medicine-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atualizardoutor{
+    background-image: url(imagens/Vaccine\ development-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.listardoutor{
+    background-image: url(imagens/Laboratory-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adicionarpaciente{
+    background-image: url(imagens/Medical\ care-amico.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.removerpaciente{
+    background-image: url(imagens/Medical\ care-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atualizarpaciente{
+    background-image: url(imagens/Person\ with\ a\ cold-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.listarpaciente{
+    background-image: url(imagens/Person\ with\ a\ cold-amico.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adicionardoador{
+    background-image: url(imagens/Stem-cell\ research-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.removerdoador{
+    background-image: url(imagens/Retroviruses-rafiki.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atualizardoador{
+    background-image: url(imagens/Cardiologist-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.listardoador{
+    background-image: url(imagens/Radiography-rafiki.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adicionaratendimento{
+    background-image: url(imagens/Medicine-cuate.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.removeratendimento{
+    background-image: url(imagens/Doctor-cuate.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atualizaratendimento{
+    background-image: url(imagens/Person\ with\ medical\ mask-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.listaratendimento{
+    background-image: url(imagens/Telecommuting-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adicionarorganizacao{
+    background-image: url(imagens/Team\ spirit-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.removerorganizacao{
+    background-image: url(imagens/Seminar-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atualizarorganizacao{
+    background-image: url(imagens/Exams-rafiki.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.listarorganizacao{
+    background-image: url(imagens/Medical\ prescription-pana.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adicionartransplante{
+    background-image: url(imagens/Stem-cell\ research-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.listartransplante{
+    background-image: url(imagens/Left\ hander-bro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

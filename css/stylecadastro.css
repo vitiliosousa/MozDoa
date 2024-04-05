@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    border-radius: 20px;
+    background: #f6f4f4;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.titulo{
+    margin-bottom: 3rem;
+    display: flex;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 1rem 0;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+    background-color: #0000001c;
+}
+.genero-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+.genero-input{
+    display: flex;
+    align-items: center;
+}
+.genero-input input{
+    margin-right:0.35rem;
+}
+
+.continuar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.continuar button{
+    width: 50%;
+    border: none;
+    padding:0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color: black;
+    transition: .5s;
+}
+.continuar a{
+    color: white;
+    text-decoration: none;
+}
+.continuar button:active{
+    background: white;
+    color: black;
+}
+@media screen and (max-width:845px) {
+    body{
+        width: 100%;
+        height: 100%;
+        background: #f6f4f4;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .form{
+        width: 100%;
+    }
+    .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .inputs {       
+        flex-direction:column;
+    }
+    .input-box input{
+        padding:0.8rem 5rem;
+    }
+    .genero-group{
+        flex-direction: column;
+    }
+    .continuar button{
+        width: 90%;
+    }
+}
